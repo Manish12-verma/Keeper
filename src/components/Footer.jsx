@@ -1,12 +1,12 @@
-import React from 'react'
-import "../styles.css"
+import React from "react";
+import "../styles.css";
 
 function Footer() {
-  return ( 
+  return (
     <footer>
-        <p>Copyright © {new Date().getFullYear()}</p>
+      <p>Copyright © {new Date().getFullYear()}</p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
